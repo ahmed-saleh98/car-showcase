@@ -1,6 +1,7 @@
 import { footerLinks } from '@/constants';
 import Image from 'next/image';
 import Link from 'next/link';
+import MadeBy from './MadeBy';
 
 const Footer = () => {
   return (
@@ -45,7 +46,7 @@ const Footer = () => {
       </div>
 
       <div
-        className="flex justify-between items-center
+        className="flex justify-between items-center gap-4
         flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10"
       >
         <p>@2024 CarHub. All Rights Reserved</p>
@@ -58,6 +59,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+      <MadeBy />
     </footer>
   );
 };
