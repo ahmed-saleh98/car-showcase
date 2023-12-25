@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
 
       <div
-        className="flex justify-between items-center gap-4
+        className="flex md:justify-between justify-center items-center gap-5
         flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10"
       >
         <p>@2024 CarHub. All Rights Reserved</p>
